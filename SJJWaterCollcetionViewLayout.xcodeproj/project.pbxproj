@@ -15,6 +15,8 @@
 		04F3466A1C8ECE140012BF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F346681C8ECE140012BF35 /* LaunchScreen.storyboard */; };
 		04F346751C8ECE140012BF35 /* SJJWaterCollcetionViewLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F346741C8ECE140012BF35 /* SJJWaterCollcetionViewLayoutTests.m */; };
 		04F346801C8ECE140012BF35 /* SJJWaterCollcetionViewLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F3467F1C8ECE140012BF35 /* SJJWaterCollcetionViewLayoutUITests.m */; };
+		04F3468F1C8ECE7B0012BF35 /* JWatterLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F3468E1C8ECE7B0012BF35 /* JWatterLayout.m */; };
+		04F346921C8ED22E0012BF35 /* JJCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F346911C8ED22E0012BF35 /* JJCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		04F3467B1C8ECE140012BF35 /* SJJWaterCollcetionViewLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJJWaterCollcetionViewLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F3467F1C8ECE140012BF35 /* SJJWaterCollcetionViewLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJJWaterCollcetionViewLayoutUITests.m; sourceTree = "<group>"; };
 		04F346811C8ECE140012BF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F3468D1C8ECE7B0012BF35 /* JWatterLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWatterLayout.h; sourceTree = "<group>"; };
+		04F3468E1C8ECE7B0012BF35 /* JWatterLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWatterLayout.m; sourceTree = "<group>"; };
+		04F346901C8ED22E0012BF35 /* JJCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJCollectionViewCell.h; sourceTree = "<group>"; };
+		04F346911C8ED22E0012BF35 /* JJCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJCollectionViewCell.m; sourceTree = "<group>"; };
+		04F8F0A61C91265D0005281C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				04F3465E1C8ECE140012BF35 /* AppDelegate.m */,
 				04F346601C8ECE140012BF35 /* ViewController.h */,
 				04F346611C8ECE140012BF35 /* ViewController.m */,
+				04F346901C8ED22E0012BF35 /* JJCollectionViewCell.h */,
+				04F346911C8ED22E0012BF35 /* JJCollectionViewCell.m */,
+				04F3468D1C8ECE7B0012BF35 /* JWatterLayout.h */,
+				04F3468E1C8ECE7B0012BF35 /* JWatterLayout.m */,
 				04F346631C8ECE140012BF35 /* Main.storyboard */,
 				04F346661C8ECE140012BF35 /* Assets.xcassets */,
 				04F346681C8ECE140012BF35 /* LaunchScreen.storyboard */,
@@ -117,6 +128,7 @@
 		04F3465A1C8ECE140012BF35 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				04F8F0A61C91265D0005281C /* PrefixHeader.pch */,
 				04F3465B1C8ECE140012BF35 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -270,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F3468F1C8ECE7B0012BF35 /* JWatterLayout.m in Sources */,
+				04F346921C8ED22E0012BF35 /* JJCollectionViewCell.m in Sources */,
 				04F346621C8ECE140012BF35 /* ViewController.m in Sources */,
 				04F3465F1C8ECE140012BF35 /* AppDelegate.m in Sources */,
 				04F3465C1C8ECE140012BF35 /* main.m in Sources */,
@@ -413,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = SJJWaterCollcetionViewLayout/PrefixHeader.pch;
 				INFOPLIST_FILE = SJJWaterCollcetionViewLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sujunjie.SJJWaterCollcetionViewLayout;
@@ -424,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = SJJWaterCollcetionViewLayout/PrefixHeader.pch;
 				INFOPLIST_FILE = SJJWaterCollcetionViewLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sujunjie.SJJWaterCollcetionViewLayout;
@@ -498,6 +514,7 @@
 				04F346861C8ECE140012BF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F346871C8ECE140012BF35 /* Build configuration list for PBXNativeTarget "SJJWaterCollcetionViewLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +523,7 @@
 				04F346891C8ECE140012BF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04F3468A1C8ECE140012BF35 /* Build configuration list for PBXNativeTarget "SJJWaterCollcetionViewLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +532,7 @@
 				04F3468C1C8ECE140012BF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
